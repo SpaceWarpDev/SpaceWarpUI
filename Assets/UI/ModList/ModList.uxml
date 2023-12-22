@@ -1,5 +1,5 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="ModList.uss" />
+    <Style src="project://database/Assets/UI/ModList/ModList.uss?fileID=7433441132597879392&amp;guid=bae714cdf945865409c4463e518a0c17&amp;type=3#ModList" />
     <ui:VisualElement class="root">
         <ui:VisualElement name="title-bar">
             <ui:Button name="back-button" text="←" />
@@ -13,7 +13,7 @@
                         <ui:Button name="disable-all-button" text="#SpaceWarp/ModList/DisableAll" />
                     </ui:VisualElement>
                     <ui:Button name="revert-changes-button" text="#SpaceWarp/ModList/RevertChanges" />
-                    <ui:Label name="changes-label" text="#SpaceWarp/ModList/ChangesDetected" style="display: none;" />
+                    <ui:Label name="changes-label" style="display: none;" />
                 </ui:VisualElement>
                 <ui:Foldout name="spacewarp-mod-foldout" text="#SpaceWarp/ModList/EnabledMods" class="mods-foldout" style="display: none;">
                     <ui:VisualElement name="spacewarp-mod-list" />
